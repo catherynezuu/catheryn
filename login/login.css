@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    background-color: <h2>Lencería</h2>
+    min-height: 100vh;
+  }
+  
+  header {
+    height: 10vh;
+    background-color: #9A7FA7;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  
+  #header-icon {
+    height: 100%;
+  }
+  
+  #header-name {
+    height: 60%;
+  }
+  
+  main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-login {
+    margin-top: 5em;
+    border-radius: 2em;
+    background-color: rgba(154, 127, 167, .29);
+    border: 1px solid #8B659D;
+    height: 70%;
+    width: 25%;
+  }
+  
+  .form-login>* {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-top {
+    height: 30%;
+    font-family: 'Birthstone', cursive;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-top h1 {
+    text-shadow: 0px 0px 10px #CD8CEC;
+  }
+  
+  .login-center {
+    flex-direction: column;
+    height: 50%;
+  }
+  
+  .login-center label{
+    height: 50%;
+    width: 100%;
+    font-family: 'Birthstone', cursive;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-center input{
+    height: 30%;
+    width: 90%;
+    border-radius: 1em;
+    border: 1px solid #8B659D;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
+  }
+  
+  .login-center p{
+    width: 90%;
+    margin: 0;
+    text-align: left;
+    color: white;
+    text-shadow: 0px 0px 10px #CD8CEC, 5px 5px 10px rgb(0, 0, 0);
+  }
+  
+  .login-bottom{
+    height: 20%;
+  }
+  
+  .login-bottom input{
+    height: 45%;
+    width: 25%;
+    border-radius: 0.7em;
+    background-color: #9A7FA7;
+    border: 0px;
+    font-family: 'Birthstone', cursive;
+    color: white;
+    font-size: 150%;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, .3);
+  }
